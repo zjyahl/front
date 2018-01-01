@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.4em;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.full {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+span {
+    display: inline-block;
+}
+.demo {
+    height: 100px;   
+    background-color: #300000;
+}
+.demo span {
+  color: white;
+  line-height: 100px;
+}
+.demo1 {
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #300000;
+}
+.demo2 {
+    height: 100px;   
+    display: table;
+    background-color: #300000;
+}
+.demo2 span {
+  color: red;
+  display: table-cell;
+  vertical-align: middle;
+}
+.demp.span {
+   
+    
+}
+
+@media screen and (min-width:1200px) {
+
+.container {
+    width: 1170px;
+}
+
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-5 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px
+    float: left;
+    position: relative;
+}
+.offset-3 {
+    margin-left: 30%;
+}
+.push-3 {
+    left: 30%;
+}
+.pull-3 {
+    right: 30%;
+}
+.visible-no {
+    display: none !important;
+}
+.visible-ok {
+    display: block !important;
+}
+.clearfix::before {
+    display: table;
+    content: " ";
+}
+.clearfix::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+
+
+.table1 { 
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table1 caption {
+    margin-bottom: 15px;
+}
+.table1 th {
+    text-align: center;
+}
+.table1 th:nth-child(1)
+{
+    width: 10%;
+} 
+.table1 th:nth-child(2)
+{
+    width: 30:;
+}
+.table1 th:nth-child(3)
+{
+    width: 20%;
+}
+.table1 th:nth-child(4)
+{
+    width: 40%
+}
+.table1 th,td {
+    border: 1px solid #ddd;
+}
+.table1 td {
+    padding-left: 10px;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+
